@@ -1,0 +1,129 @@
+@import url('fonts.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 15px;
+    background: #fff;
+}
+
+.header {
+    background: #F44336;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.main {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.nav {
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 10%;
+}
+
+.nav a {
+        background: #607D8B;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.nav a:hover {
+    background: rgba(96, 125, 139, 0.7);
+}
+
+.cuerpo {
+    width: 90%;
+}
+
+.resumen {
+    margin: 50px;
+    padding: 20px;
+    background: rgba(189, 189, 189, 0.5);
+    -webkit-box-shadow: 5px 10px;
+    box-shadow: 5px 5px 5px 5px #f2f2f2;
+    
+}
+
+.resumen p {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Roboto-Bold';
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.resumen pre {
+    background: #fff;
+    border: solid 2px;
+    border-color: #303F9F;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.ejemplo {
+    background: #fff;
+    padding: 20px;
+    border: solid 2px;
+    border-color: #D32F2F;
+    margin-bottom: 30px;
+}
+
+.resumen a {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.resumen a:hover {
+    opacity: 0.5;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    background: #D32F2F;
+    padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .nav {
+        display: none;
+    }
+    
+    .resumen {
+        width: 100%;
+        margin: 0px;
+        -webkit-box-shadow: 0px;
+        box-shadow: 0px 0px 0px 0px;
+    }
+}
