@@ -1,12 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <title>AE 1.3 – Etiquetas en HTML5</title>
 </head>
-<body>
 
+<body>
+  <div id="indice">
+    <a href="#article">&ltarticle&gt</a>
+    <a href="#aside">&ltaside&gt </a>
+    <a href="#audio">&ltaudio&gt</a>
+    <a href="#bdi">&ltbdi&gt </a>
+    <a href="#data">&ltdata&gt </a>
+    <a href="#canvas">&ltcanvas&gt </a>
+  </div>
+  <div id="encabezado">
+    <p>
+      AE 1.3 – Etiquetas en HTML5
+    </p>
+    <p>
+      Francisco Carrillo Ayala (15410789) Juan Daniel Martínez Navarro(15410596)
+    </p>
+
+
+  </div>
+  <div id="contenedor-principal">
+
+
+    <h3 id="article">
+      &ltarticle&gt
+    </h3>
+    <p>
+      Sirve para especificar contenido independiente.
+      Es soportado por Chrome 6.0 en adelante, internet explorer/edge 9.0 en adelante, Firefox 4.0 en adelante, safari 5.0 en adelante y opera 11.1 en adelante.</p>
+    <p>Ejemplo</p>
+    <p>&lt!DOCTYPE html&gt</p>
+    <p>&lthtml&gt</p>
+    <p>&ltbody&gt</p>
+    <p>&ltarticle&gt</p>
+    <p>&lth1&gtEjemplo&lt/h1&gt</p>
+    <p>&ltp&gtEste es un ejemplo de la etiqueta article&lt/p&gt</p>
+    <p>&lt/article&gt</p>
+    <p>&lt/body&gt</p>
+    <p>&lt/html&gt</p>
+
+
+    <h3 id="aside">
+      &ltaside&gt
+    </h3>
+    <p>
+      Sirve para definir un contenido separado del que se encuentra aunque también se puede poner como una barra lateral en el artículo.
+      Es soportado por Chrome 6.0 en adelante, internet explorer/edge 9.0 en adelante, Firefox 4.0 en adelante, safari 5.0 en adelante y opera 11.1 en adelante.
+      <p>Ejemplo</p>
+      <p>&lt!DOCTYPE html&gt</p>
+      <p>&lthtml&gt</p>
+      <p>&ltbody&gt</p>
+      <p>&ltp&gtTodos en algún momento pensamos que los ornitorrincos eran los únicos que nacían en huevo.&lt/p&gt</p>
+      <p>&ltaside&gt</p>
+      <p>&lth4&gtNota &lt/h4&gt</p>
+      <p> &ltp&gtExisten unos animales que se llaman equidnas que también lo hacen.&lt/p&gt</p>
+      <p>&lt/aside&gt</p>
+      <p>&lt/body&gt</p>
+      <p>&lt/html&gt</p>
+
+      <h3 id="audio">
+        &ltaudio&gt
+      </h3>
+      <p>
+        Esta etiqueta es para poner elementos de audio en las páginas, pero sólo admite tres tipos de audio, mp3, wav y ogg, aunque internet explorer no acepta el formato wav y ogg y safari no acepta el formato ogg, los navegadores que no soportan
+        la etiqueta audio muestran el texto que está entre la etiqueta.
+        Es soportado por Chrome 4.0 en adelante, internet explorer/edge 9.0 en adelante, Firefox 3.5 en adelante, safari 4.0 en adelante y opera 10.5 en adelante.</p>
+      <p>Ejemplo</p>
+      <p>&lt!DOCTYPE html&gt</p>
+      <p>&lthtml&gt</p>
+      <p>&ltbody&gt</p>
+      <p>&ltaudio controls&gt</p>
+      <p>&ltsource src="BUNBURY – Más alto que nosotros sólo el cielo.mp3" type="audio/mpeg"&gt</p>
+      <p>&lt/audio&gt</p>
+      <p>&lt/body&gt</p>
+      <p>&lt/html&gt</p>
+
+
+
+      <h3 id="bdi">
+        &ltbdi&gt
+      </h3>
+      <p>
+        Sirve parar aislar una parte de un texto que tiene un formato de escritura diferente a otro texto.
+        Es soportada por Chrome, Firefox, Safari y Opera.</p>
+      <p>Ejemplo:</p>
+      <p>&lt!DOCTYPE html&gt</p>
+      <p>&lthtml&gt</p>
+      <p>&ltbody&gt</p>
+      <p>&ltul&gt</p>
+      <p> &ltli&gtUser &ltbdi&lt Abu Abdallah Muḥammad ibn Mūsā al-Jwārizmī &lt/bdi&gt: Matemático&lt/li&gt</p>
+      <p> &ltli&gtUser &ltbdi&gt جلال الدين محمد بلخى&lt/bdi&gt: Poeta&lt/li&gt</p>
+      <p> &ltli&gtUser &ltbdi&gt Ruhollah Musaví Jomeini&lt/bdi&gt: Ayatollah&lt/li&gt</p>
+      <p>&lt/ul&gt</p>
+      <p>&lt/body&gt</p>
+      <p>&lt/html&gt</p>
+
+      <h3 id="data">
+        &ltdata&gt
+      </h3>
+      <p>
+        Vincula el contenido con una traducción legible por el ordenador y proporciona ambos valores, el legible por la computadora para procesar datos como el valor legible por los humanos.
+        Es soportada por Chrome 62.0, por Internet Explores/Edge, Firefox 22.0 y por Opera 49.</p>
+      <p>Ejemplo</p>
+      <p>&lt!DOCTYPE html&gt</p>
+      <p>&lthtml&gt</p>
+      <p>&ltbody&gt</p>
+      <p>&ltul&gt</p>
+      <p>&ltli&gt&ltdata value="1"&gtAmanita Muscaria&lt/data&gt&lt/li&gt</p>
+      <p>&ltli&gt&ltdata value="69"&gtShitake&lt/data&gt&lt/li&gt</p>
+      <p>&ltli&gt&ltdata value="16180339887498948"&gtTrufa&lt/data&gt&lt/li&gt</p>
+      <p>&lt/ul&gt</p>
+      <p>&lt/body&gt</p>
+      <p>&lt/html&gt</p>
+
+
+      <h3 id="canvas">
+        &ltcanvas&gt
+      </h3>
+      <p>
+        La etiqueta &ltcanvas&gt se utiliza para dibujar gráficos sobre la marcha, a través de secuencias de comandos (generalmente JavaScript).
+        La etiqueta &ltcanvas&gt es solo un contenedor para gráficos, debe usar un script para dibujar los gráficos. Es soportado por Chrome 4.0, Internet explorer 9.0, Firefox 2.0, Safari 3.1 y Opera 9.0 en adelante.</p>
+      <p>Ejemplo:</p>
+      <p>&lt!DOCTYPE html&gt</p>
+      <p>&lthtml&gt</p>
+      <p>&ltbody&gt</p>
+      <p>&ltcanvas id="myCanvas"&gtYour browser does not support the HTML5 canvas tag.&lt/canvas&gt</p>
+      <p>&ltscript&gt</p>
+      <p>var c = document.getElementById("myCanvas");</p>
+      <p>var ctx = c.getContext("2d");</p>
+      <p>ctx.fillStyle = "#FF0000";</p>
+      <p>ctx.fillRect(0, 0, 80, 100);</p>
+      <p>&lt/script&gt</p>
+      <p>&lt/body&gt</p>
+      <p>&lt/html&gt</p>
+
+
+  </div>
+  <div id="piecera">
+    <p>
+      Instituto tecnológico de Parral
+
+    </p>
+    <p>
+      Tópicos de programación web
+
+    </p>
+    <p>
+      4 de Febrero del 2019
+    </p>
+  </div>
 </body>
+
 </html>
