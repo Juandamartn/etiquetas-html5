@@ -20,6 +20,12 @@ body {
     padding: 20px;
 }
 
+header a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 20px;
+}
+
 .main {
     width: 100%;
     display: -webkit-box;
@@ -68,7 +74,7 @@ body {
     background: rgba(189, 189, 189, 0.5);
     -webkit-box-shadow: 5px 10px;
     box-shadow: 5px 5px 5px 5px #f2f2f2;
-    
+
 }
 
 .resumen p {
@@ -119,7 +125,7 @@ h3 {
     .nav {
         display: none;
     }
-    
+
     .resumen {
         width: 100%;
         margin: 0px;
