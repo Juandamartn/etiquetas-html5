@@ -7,4 +7,4 @@ En w3schools muestran un listado de las etiquetas incluidas en la especificació
 - Ejemplo de código.
 
 Crear página web con la siguiente estructura:
-![Imgur](https://imgur.com/2LVHyeT)
+![Imgur](https://i.imgur.com/2LVHyeT.png)
