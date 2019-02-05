@@ -11,14 +11,14 @@
 
 <body>
 
-  <header>
+  <header class="header">
     <h1 id="inicio">AE 1.3 – Etiquetas en HTML5</h1>
     <h2>Francisco Carrillo Ayala (15410789) Juan Daniel Martínez Navarro(15410596)</h2>
   </header>
 
-  <main>
-    
-    <nav>
+  <main class="main">
+
+    <nav class="nav">
       <a href="#article">&ltarticle&gt</a>
       <a href="#aside">&ltaside&gt </a>
       <a href="#audio">&ltaudio&gt</a>
@@ -52,14 +52,14 @@
       <a href="#video">&ltvideo></a>
       <a href="#wbr">&ltwbr></a>
     </nav>
-
-    <div class="resumen">
-      <h3 id="article">&ltarticle&gt</h3>
-      <p>Sirve para especificar contenido independiente. Es soportado por
-        Chrome 6.0 en adelante, internet explorer/edge 9.0 en adelante, Firefox
-        4.0 en adelante, safari 5.0 en adelante y opera 11.1 en adelante.</p>
-      <p>Ejemplo</p>
-      <pre>
+    <div class="cuerpo">
+      <div class="resumen">
+        <h3 id="article">&ltarticle&gt</h3>
+        <p>Sirve para especificar contenido independiente. Es soportado por
+          Chrome 6.0 en adelante, internet explorer/edge 9.0 en adelante, Firefox
+          4.0 en adelante, safari 5.0 en adelante y opera 11.1 en adelante.</p>
+        <p>Ejemplo</p>
+        <pre>
         <code>
 &lt!DOCTYPE html&gt
 &lthtml&gt
@@ -72,23 +72,23 @@
 &lt/html&gt
         </code>
       </pre>
-      <div class="ejemplo">
-        <article>
-          <h1>Ejemplo</h1>
-          <p>Este es un ejemplo de la etiqueta article</p>
-        </article>
+        <div class="ejemplo">
+          <article>
+            <h1>Ejemplo</h1>
+            <p>Este es un ejemplo de la etiqueta article</p>
+          </article>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="aside">&ltaside&gt</h3>
-      <p>Sirve para definir un contenido separado del que se encuentra aunque
-        también se puede poner como una barra lateral en el artículo. Es soportado
-        por Chrome 6.0 en adelante, internet explorer/edge 9.0 en adelante,
-        Firefox 4.0 en adelante, Safari 5.0 en adelante y Opera 11.1 en adelante.</p>
-      <p>Ejemplo</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="aside">&ltaside&gt</h3>
+        <p>Sirve para definir un contenido separado del que se encuentra aunque
+          también se puede poner como una barra lateral en el artículo. Es soportado
+          por Chrome 6.0 en adelante, internet explorer/edge 9.0 en adelante,
+          Firefox 4.0 en adelante, Safari 5.0 en adelante y Opera 11.1 en adelante.</p>
+        <p>Ejemplo</p>
+        <pre>
         <code>
 &lt!DOCTYPE html&gt
 &lthtml&gt
@@ -103,27 +103,27 @@
 &lt/html&gt
         </code>
       </pre>
-      <div class="ejemplo">
-        <p>Todos en algún momento pensamos que los ornitorrincos eran los únicos
-          que nacían en huevo</p>
-        <aside>
-          <h4>Nota</h4>
-          <p>Existen unos animales que se llaman quidnas que también lo hacen</p>
-        </aside>
+        <div class="ejemplo">
+          <p>Todos en algún momento pensamos que los ornitorrincos eran los únicos
+            que nacían en huevo</p>
+          <aside>
+            <h4>Nota</h4>
+            <p>Existen unos animales que se llaman quidnas que también lo hacen</p>
+          </aside>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="audio">&ltaudio&gt</h3>
-      <p>Esta etiqueta es para poner elementos de audio en las páginas, pero sólo
-        admite tres tipos de audio, mp3, wav y ogg, aunque internet explorer no
-        acepta el formato wav y ogg y safari no acepta el formato ogg, los navegadores
-        que no soportan la etiqueta audio muestran el texto que está entre la etiqueta.
-        Es soportado por Chrome 4.0 en adelante, internet explorer/edge 9.0 en adelante,
-        Firefox 3.5 en adelante, safari 4.0 en adelante y opera 10.5 en adelante.</p>
-      <p>Ejemplo</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="audio">&ltaudio&gt</h3>
+        <p>Esta etiqueta es para poner elementos de audio en las páginas, pero sólo
+          admite tres tipos de audio, mp3, wav y ogg, aunque internet explorer no
+          acepta el formato wav y ogg y safari no acepta el formato ogg, los navegadores
+          que no soportan la etiqueta audio muestran el texto que está entre la etiqueta.
+          Es soportado por Chrome 4.0 en adelante, internet explorer/edge 9.0 en adelante,
+          Firefox 3.5 en adelante, safari 4.0 en adelante y opera 10.5 en adelante.</p>
+        <p>Ejemplo</p>
+        <pre>
         <code>
 &lt!DOCTYPE html&gt
 &lthtml&gt
@@ -135,20 +135,20 @@
 &lt/html&gt
         </code>
       </pre>
-      <div class="ejemplo">
-        <audio controls>
-          <source src="BUNBURY – Más alto que nosotros sólo el cielo.mp3" type="audio/mpeg">
-        </audio>
+        <div class="ejemplo">
+          <audio controls>
+            <source src="BUNBURY – Más alto que nosotros sólo el cielo.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="bdi">&ltbdi&gt</h3>
-      <p>Sirve parar aislar una parte de un texto que tiene un formato de escritura
-        diferente a otro texto. Es soportada por Chrome, Firefox, Safari y Opera.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="bdi">&ltbdi&gt</h3>
+        <p>Sirve parar aislar una parte de un texto que tiene un formato de escritura
+          diferente a otro texto. Es soportada por Chrome, Firefox, Safari y Opera.</p>
+        <p>Ejemplo:</p>
+        <pre>
         <code>
 &lt!DOCTYPE html&gt
 &lthtml&gt
@@ -162,25 +162,25 @@
 &lt/html&gt
         </code>
       </pre>
-      <div class="ejemplo">
-        <ul>
-          <li>User <bdi>Abu Abdallah Muḥammad ibn Mūsā al-Jwārizmī</bdi>: Matemático</li>
-          <li>User <bdi> جلال الدين محمد بلخ</bdi>: Poeta</li>
-          <li>User <bdi>Ruhollah Musaví Jomeini</bdi>: Ayatollah</li>
-        </ul>
+        <div class="ejemplo">
+          <ul>
+            <li>User <bdi>Abu Abdallah Muḥammad ibn Mūsā al-Jwārizmī</bdi>: Matemático</li>
+            <li>User <bdi> جلال الدين محمد بلخ</bdi>: Poeta</li>
+            <li>User <bdi>Ruhollah Musaví Jomeini</bdi>: Ayatollah</li>
+          </ul>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="data">&ltdata&gt</h3>
-      <p>Vincula el contenido con una traducción legible por el ordenador y
-        proporciona ambos valores, el legible por la computadora para procesar
-        datos como el valor legible por los humanos. Es soportada por Chrome 62.0,
-        por Internet Explores/Edge,
-        Firefox 22.0 y por Opera 49.</p>
-      <p>Ejemplo</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="data">&ltdata&gt</h3>
+        <p>Vincula el contenido con una traducción legible por el ordenador y
+          proporciona ambos valores, el legible por la computadora para procesar
+          datos como el valor legible por los humanos. Es soportada por Chrome 62.0,
+          por Internet Explores/Edge,
+          Firefox 22.0 y por Opera 49.</p>
+        <p>Ejemplo</p>
+        <pre>
         <code>
 &ltul>
   &ltli>&ltdata value="21053">Cherry Tomato&lt/data>&lt/li>
@@ -189,25 +189,25 @@
 &lt/ul>
         </code>
       </pre>
-      <div class="ejemplo">
-        <ul>
-          <li><data value="21053">Cherry Tomato</data></li>
-          <li><data value="21054">Beef Tomato</data></li>
-          <li><data value="21055">Snack Tomato</data></li>
-        </ul>
+        <div class="ejemplo">
+          <ul>
+            <li><data value="21053">Cherry Tomato</data></li>
+            <li><data value="21054">Beef Tomato</data></li>
+            <li><data value="21055">Snack Tomato</data></li>
+          </ul>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="canvas">&ltcanvas&gt</h3>
-      <p>La etiqueta &ltcanvas&gt se utiliza para dibujar gráficos sobre la marcha
-        , a través de secuencias de comandos (generalmente JavaScript). La etiqueta
-        &ltcanvas&gt es solo un contenedor para gráficos, debe usar un script para
-        dibujar los gráficos. Es soportado por Chrome 4.0, Internet explorer 9.0,
-        Firefox 2.0, Safari 3.1 y Opera 9.0 en adelante.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="canvas">&ltcanvas&gt</h3>
+        <p>La etiqueta &ltcanvas&gt se utiliza para dibujar gráficos sobre la marcha
+          , a través de secuencias de comandos (generalmente JavaScript). La etiqueta
+          &ltcanvas&gt es solo un contenedor para gráficos, debe usar un script para
+          dibujar los gráficos. Es soportado por Chrome 4.0, Internet explorer 9.0,
+          Firefox 2.0, Safari 3.1 y Opera 9.0 en adelante.</p>
+        <p>Ejemplo:</p>
+        <pre>
         <code>
 &ltcanvas id="myCanvas">&lt/canvas>
 
@@ -219,29 +219,29 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/script>
         </code>
       </pre>
-      <div class="ejemplo">
-        <canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
-        <script>
-          var c = document.getElementById("myCanvas");
+        <div class="ejemplo">
+          <canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+          <script>
+            var c = document.getElementById("myCanvas");
           var ctx = c.getContext("2d");
           ctx.fillStyle = "#FF0000";
           ctx.fillRect(0, 0, 80, 100);
         </script>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="datalist">&ltdatalist></h3>
-      <p>La etiqueta &ltdatalist> especifica una lista de opciones pre-definidas
-        para un elemento &ltinput>.</p>
-      <p>La etiqueta &ltdatalist> es usada para proveer una opción de "autocompletado"
-        en los elementos &ltinput>. El usuario verá una lista desplegable de opciones
-        pre-definidas.</p>
-      <p>Es soportado por Chrome, Edge, FireFox y Opera. También soporta los
-        atributos globales de HTML.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="datalist">&ltdatalist></h3>
+        <p>La etiqueta &ltdatalist> especifica una lista de opciones pre-definidas
+          para un elemento &ltinput>.</p>
+        <p>La etiqueta &ltdatalist> es usada para proveer una opción de "autocompletado"
+          en los elementos &ltinput>. El usuario verá una lista desplegable de opciones
+          pre-definidas.</p>
+        <p>Es soportado por Chrome, Edge, FireFox y Opera. También soporta los
+          atributos globales de HTML.</p>
+        <p>Ejemplo:</p>
+        <pre>
       <code>
 &ltinput list="browsers">
 
@@ -254,29 +254,29 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/datalist>
       </code>
     </pre>
-      <div class="ejemplo">
-        <input list="browsers">
+        <div class="ejemplo">
+          <input list="browsers">
 
-        <datalist id="browsers">
-          <option value="Internet Explorer">
-          <option value="Firefox">
-          <option value="Chrome">
-          <option value="Opera">
-          <option value="Safari">
-        </datalist>
+          <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="dd">&ltdd></h3>
-      <p>La etiqueta &ltdd> es usada para describir terminos en una lista de descripción.</p>
-      <p>La etiqueta &ltdd> es usada en conjunto con &ltdl> y &ltdt>. Dentro de
-        ella se pueden poner párrafos, saltos de línea, imágenes, links, etc.</p>
-      <p>Es soportado por todos los navegadores. También soporta los atributos
-        globales de HTML</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="dd">&ltdd></h3>
+        <p>La etiqueta &ltdd> es usada para describir terminos en una lista de descripción.</p>
+        <p>La etiqueta &ltdd> es usada en conjunto con &ltdl> y &ltdt>. Dentro de
+          ella se pueden poner párrafos, saltos de línea, imágenes, links, etc.</p>
+        <p>Es soportado por todos los navegadores. También soporta los atributos
+          globales de HTML</p>
+        <p>Ejemplo:</p>
+        <pre>
       <code>
 &ltdl>
   &ltdt>Coffee&lt/dt>
@@ -286,20 +286,20 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/dl>
       </code>
     </pre>
-      <a href="#incio">Ir al principio</a>
-    </div>
+        <a href="#inicio">Ir al principio</a>
+      </div>
 
-    <div class="resumen">
-      <h3 id="details">&ltdetails></h3>
-      <p>La etiqueta &ltdetails> especifica detalles adicionales que el usuario
-        puede ver u ocultar</p>
-      <p>La etiqueta &ltdetails> puede ser usada para crear un "widget" interactivo
-        que el usuario pueda abrir y cerrar. Cualquiero tipo de contenido puede ser puesto dentro de la etiqueta.</p>
-      <p>Es soportada por Chrome, FireFox, Safari y Opera</p>
-      <p>Su principal atributo introducido en HTML5 es <b><i>open</i></b>, que
-        especifica los detalles que deberían de ser visibles ante el usuario.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="details">&ltdetails></h3>
+        <p>La etiqueta &ltdetails> especifica detalles adicionales que el usuario
+          puede ver u ocultar</p>
+        <p>La etiqueta &ltdetails> puede ser usada para crear un "widget" interactivo
+          que el usuario pueda abrir y cerrar. Cualquiero tipo de contenido puede ser puesto dentro de la etiqueta.</p>
+        <p>Es soportada por Chrome, FireFox, Safari y Opera</p>
+        <p>Su principal atributo introducido en HTML5 es <b><i>open</i></b>, que
+          especifica los detalles que deberían de ser visibles ante el usuario.</p>
+        <p>Ejemplo:</p>
+        <pre>
       <code>
 &ltdetails>
   &ltsummary>Copyright 1999-2018.&lt/summary>
@@ -308,26 +308,26 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/details>
       </code>
     </pre>
-      <div class="ejemplo">
-        <details>
-          <summary>Copyright 1999-2018.</summary>
-          <p> - by Refsnes Data. All Rights Reserved.</p>
-          <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
-        </details>
+        <div class="ejemplo">
+          <details>
+            <summary>Copyright 1999-2018.</summary>
+            <p> - by Refsnes Data. All Rights Reserved.</p>
+            <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+          </details>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="dialog">&ltdialog></h3>
-      <p>La etiqueta &ltdialog> define un diálogo en una caja o ventana.</p>
-      <p>La etiqueta &ltdialog> hace más fácil el crear diálogos emergentes en
-        una página web.</p>
-      <p>Es soportado por Chrome. FireFox, Safari y Opera.</p>
-      <p>Su principal atributo es <b><i>open</i></b>, que especifica que el
-        diálogo está activo y el usuario puede interactuar con el.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="dialog">&ltdialog></h3>
+        <p>La etiqueta &ltdialog> define un diálogo en una caja o ventana.</p>
+        <p>La etiqueta &ltdialog> hace más fácil el crear diálogos emergentes en
+          una página web.</p>
+        <p>Es soportado por Chrome. FireFox, Safari y Opera.</p>
+        <p>Su principal atributo es <b><i>open</i></b>, que especifica que el
+          diálogo está activo y el usuario puede interactuar con el.</p>
+        <p>Ejemplo:</p>
+        <pre>
       <code>
 &lttable>
   &lttr>
@@ -343,33 +343,33 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/table>
       </code>
     </pre>
-      <div class="ejemplo">
-        <table>
-          <tr>
-            <th>January <dialog open>This is an open dialog window</dialog>
-            </th>
-            <th>February</th>
-            <th>March</th>
-          </tr>
-          <tr>
-            <td>31</td>
-            <td>28</td>
-            <td>31</td>
-          </tr>
-        </table>
+        <div class="ejemplo">
+          <table>
+            <tr>
+              <th>January <dialog open>This is an open dialog window</dialog>
+              </th>
+              <th>February</th>
+              <th>March</th>
+            </tr>
+            <tr>
+              <td>31</td>
+              <td>28</td>
+              <td>31</td>
+            </tr>
+          </table>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="dir">&ltdir></h3>
-      <p>La etiqueta &ltdir> ya no tiene soporte por HTML5.</p>
-      <p>La etiqueta &ltdir> es usada para enlistar los títulos de directorios.</p>
-      <p>Es soportada por todos los navegadores</p>
-      <p>Su principal atributo es <b><i>compact</i></b>, que especifica que la
-        lista debe ser ajustada más pequeña de lo normal</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="dir">&ltdir></h3>
+        <p>La etiqueta &ltdir> ya no tiene soporte por HTML5.</p>
+        <p>La etiqueta &ltdir> es usada para enlistar los títulos de directorios.</p>
+        <p>Es soportada por todos los navegadores</p>
+        <p>Su principal atributo es <b><i>compact</i></b>, que especifica que la
+          lista debe ser ajustada más pequeña de lo normal</p>
+        <p>Ejemplo:</p>
+        <pre>
       <code>
 &ltdir>
   &ltli>html&lt/li>
@@ -378,37 +378,37 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/dir>
       </code>
     </pre>
-      <a href="#incio">Ir al principio</a>
-    </div>
+        <a href="#inicio">Ir al principio</a>
+      </div>
 
-    <div class="resumen">
-      <h3 id="embed">&ltembed></h3>
-      <p>La etiqueta &ltembed> define un contenedor para una aplicación externa
-        o de contenido interactivo (plug-in).</p>
-      <p>Es soportada por todos los navegadores.</p>
-      <p>Sus principales atributos son <b><i>height</i></b>, que especifica el
-        tamaño del contenido enfatizado, <b><i>src</i></b>, que especifica la dirección de un archivo externo, <b><i>type</i></b>, que especifica el tipo de contenido agregado, y
-        <b><i>width</i></b>, que especifica el ancho del texto.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="embed">&ltembed></h3>
+        <p>La etiqueta &ltembed> define un contenedor para una aplicación externa
+          o de contenido interactivo (plug-in).</p>
+        <p>Es soportada por todos los navegadores.</p>
+        <p>Sus principales atributos son <b><i>height</i></b>, que especifica el
+          tamaño del contenido enfatizado, <b><i>src</i></b>, que especifica la dirección de un archivo externo, <b><i>type</i></b>, que especifica el tipo de contenido agregado, y
+          <b><i>width</i></b>, que especifica el ancho del texto.</p>
+        <p>Ejemplo:</p>
+        <pre>
       <code>
 &ltembed src="helloworld.swf">
       </code>
     </pre>
-      <div class="ejemplo">
-        <embed src="helloworld.swf">
+        <div class="ejemplo">
+          <embed src="helloworld.swf">
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="figcption">&ltfigcaption></h3>
-      <p>La etiqueta &ltfigcaption> define el subtítulo para un elemento &ltfigure>.</p>
-      <p>Puede ser colocado como el primer o último hijo del elemento &ltfigure>.</p>
-      <p>Es soportada por todos los navegadores. También soporta todos los
-        atributos globales en HTML</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="figcaption">&ltfigcaption></h3>
+        <p>La etiqueta &ltfigcaption> define el subtítulo para un elemento &ltfigure>.</p>
+        <p>Puede ser colocado como el primer o último hijo del elemento &ltfigure>.</p>
+        <p>Es soportada por todos los navegadores. También soporta todos los
+          atributos globales en HTML</p>
+        <p>Ejemplo:</p>
+        <pre>
       <code>
 &ltfigure>
   &ltimg src="pic_trulli.jpg" alt="Trulli" style="width:100%">
@@ -416,55 +416,55 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/figure>
       </code>
     </pre>
-      <div class="ejemplo">
-        <figure>
-          <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
-          <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-        </figure>
+        <div class="ejemplo">
+          <figure>
+            <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+          </figure>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="figure">&ltfigure></h3>
-      <p>La etiqueta &ltfigure> especifica contenido como ilustraciones,
-        diagramas, fotos, listados de código, etc.</p>
-      <p>Mientras el contenido de &ltfigure> está relacionado con el flujo
-        principal, su posición es independiente del mismo, y si es removido no
-        debe afectar al flujo del documento.</p>
-      <p>Es soportado por todos los navegadores.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="figure">&ltfigure></h3>
+        <p>La etiqueta &ltfigure> especifica contenido como ilustraciones,
+          diagramas, fotos, listados de código, etc.</p>
+        <p>Mientras el contenido de &ltfigure> está relacionado con el flujo
+          principal, su posición es independiente del mismo, y si es removido no
+          debe afectar al flujo del documento.</p>
+        <p>Es soportado por todos los navegadores.</p>
+        <p>Ejemplo:</p>
+        <pre>
       <code>
 &ltfigure>
   &ltimg src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
 &lt/figure>
       </code>
     </pre>
-      <div class="ejemplo">
-        <figure>
-          <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
-        </figure>
+        <div class="ejemplo">
+          <figure>
+            <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+          </figure>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="footer">&ltfooter></h3>
-      <p>La etiqueta &ltfooter> define un pie de página al documento o sección.</p>
-      <p>Debe contener información sobre el docmuento, así como:</p>
-      <ul>
-        <li>Autor</li>
-        <li>Copyright</li>
-        <li>Contacto</li>
-        <li>Mapa del sitio</li>
-        <li>Enlaces al inicio del documento</li>
-        <li>Documentos relacionados</li>
-      </ul>
-      <p>Es soportado por todos los navegadores. También soporta los atributos
-        globales en HTML.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="footer">&ltfooter></h3>
+        <p>La etiqueta &ltfooter> define un pie de página al documento o sección.</p>
+        <p>Debe contener información sobre el docmuento, así como:</p>
+        <ul>
+          <li>Autor</li>
+          <li>Copyright</li>
+          <li>Contacto</li>
+          <li>Mapa del sitio</li>
+          <li>Enlaces al inicio del documento</li>
+          <li>Documentos relacionados</li>
+        </ul>
+        <p>Es soportado por todos los navegadores. También soporta los atributos
+          globales en HTML.</p>
+        <p>Ejemplo:</p>
+        <pre>
       <code>
 &ltfooter>
   &ltp>Posted by: Hege Refsnes&lt/p>
@@ -473,30 +473,30 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/footer>
       </code>
     </pre>
-      <div class="ejemplo">
-        <footer>
-          <p>Posted by: Hege Refsnes</p>
-          <p>Contact information: <a href="mailto:someone@example.com">
-              someone@example.com</a>.</p>
-        </footer>
+        <div class="ejemplo">
+          <footer>
+            <p>Posted by: Hege Refsnes</p>
+            <p>Contact information: <a href="mailto:someone@example.com">
+                someone@example.com</a>.</p>
+          </footer>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="header">%ltheader></h3>
-      <p>La etiqueta &ltheader> representa un contenedor para contenido
-        introductorio o un set de enlaces de navegación</p>
-      <p>Normalmente contiene:</p>
-      <ul>
-        <li>Uno o más encabezados (&lth1> - &lth6>).</li>
-        <li>Logotipo</li>
-        <li>Información del autor</li>
-      </ul>
-      <p>Es soportada por todos los navegadores. TAmbién soporta los atributos
-        globales en HTML.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="header">%ltheader></h3>
+        <p>La etiqueta &ltheader> representa un contenedor para contenido
+          introductorio o un set de enlaces de navegación</p>
+        <p>Normalmente contiene:</p>
+        <ul>
+          <li>Uno o más encabezados (&lth1> - &lth6>).</li>
+          <li>Logotipo</li>
+          <li>Información del autor</li>
+        </ul>
+        <p>Es soportada por todos los navegadores. TAmbién soporta los atributos
+          globales en HTML.</p>
+        <p>Ejemplo:</p>
+        <pre>
         <code>
 &ltarticle>
   &ltheader>
@@ -508,28 +508,28 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/article>
         </code>
       </pre>
-      <div class="ejemplo">
-        <article>
-          <header>
-            <h1>Most important heading here</h1>
-            <h3>Less important heading here</h3>
-            <p>Some additional information here</p>
-          </header>
-          <p>Lorem Ipsum dolor set amet....</p>
-        </article>
+        <div class="ejemplo">
+          <article>
+            <header>
+              <h1>Most important heading here</h1>
+              <h3>Less important heading here</h3>
+              <p>Some additional information here</p>
+            </header>
+            <p>Lorem Ipsum dolor set amet....</p>
+          </article>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="main">&ltmain></h3>
-      <p>La etiqueta &ltmain> especifica el contenido principal del documento.</p>
-      <p>El contenido dentro de &ltmain> debe ser único para el documento. No
-        debe contener elementos que estén repetidos como sidebars, enlaces de
-        navegación, información de copyrght, logotipos, etc.</p>
-      <p>Es soportada por todos los navegadores. También soporta los atributos globales en HTML.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="main">&ltmain></h3>
+        <p>La etiqueta &ltmain> especifica el contenido principal del documento.</p>
+        <p>El contenido dentro de &ltmain> debe ser único para el documento. No
+          debe contener elementos que estén repetidos como sidebars, enlaces de
+          navegación, información de copyrght, logotipos, etc.</p>
+        <p>Es soportada por todos los navegadores. También soporta los atributos globales en HTML.</p>
+        <p>Ejemplo:</p>
+        <pre>
         <code>
 &ltmain>
   &lth1>Web Browsers&lt/h1>
@@ -553,79 +553,79 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/main>
         </code>
       </pre>
-      <div class="ejemplo">
-        <main>
-          <h1>Web Browsers</h1>
-          <p>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.</p>
+        <div class="ejemplo">
+          <main>
+            <h1>Web Browsers</h1>
+            <p>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.</p>
 
-          <article>
-            <h1>Google Chrome</h1>
-            <p>Google Chrome is a free, open-source web browser developed by Google,
-              released in 2008.</p>
-          </article>
+            <article>
+              <h1>Google Chrome</h1>
+              <p>Google Chrome is a free, open-source web browser developed by Google,
+                released in 2008.</p>
+            </article>
 
-          <article>
-            <h1>Internet Explorer</h1>
-            <p>Internet Explorer is a free web browser from Microsoft, released in 1995.</p>
-          </article>
+            <article>
+              <h1>Internet Explorer</h1>
+              <p>Internet Explorer is a free web browser from Microsoft, released in 1995.</p>
+            </article>
 
-          <article>
-            <h1>Mozilla Firefox</h1>
-            <p>Firefox is a free, open-source web browser from Mozilla, released in 2004.</p>
-          </article>
-        </main>
+            <article>
+              <h1>Mozilla Firefox</h1>
+              <p>Firefox is a free, open-source web browser from Mozilla, released in 2004.</p>
+            </article>
+          </main>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="mark">&ltmark></h3>
-      <p>La etiqueta &ltmark> define un texto marcado.</p>
-      <p>Usar &ltmark> si se quiere resaltar partes de un texto.</p>
-      <p>Es soportado por todos los navegadores. También soporta los atributos
-        globales en HTML.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="mark">&ltmark></h3>
+        <p>La etiqueta &ltmark> define un texto marcado.</p>
+        <p>Usar &ltmark> si se quiere resaltar partes de un texto.</p>
+        <p>Es soportado por todos los navegadores. También soporta los atributos
+          globales en HTML.</p>
+        <p>Ejemplo:</p>
+        <pre>
         <code>
           &ltp>Do not forget to buy &ltmark>milk&lt/mark> today.&lt/p>
         </code>
       </pre>
-      <div class="ejemplo">
-        <p>Do not forget to buy <mark>milk</mark> today.</p>
+        <div class="ejemplo">
+          <p>Do not forget to buy <mark>milk</mark> today.</p>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="meter">&ltmeter></h3>
-      <p>La etiqueta &ltmeter> define una escala de medición con un rango, o valor fraccional.</p>
-      <p>Es soportado por todos los navegadores.</p>
-      <p>Sus principales atributos son <b><i>form</i></b>, que especifica uno o
-        más formularios al que pertenece, <b><i>max</i></b>, que especifica el
-        valor máximo, <b><i>min</i></b>, que especifica el valor mínimo, y
-        <b><i>optimum</i></b>, que especifica el valor óptimo.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="meter">&ltmeter></h3>
+        <p>La etiqueta &ltmeter> define una escala de medición con un rango, o valor fraccional.</p>
+        <p>Es soportado por todos los navegadores.</p>
+        <p>Sus principales atributos son <b><i>form</i></b>, que especifica uno o
+          más formularios al que pertenece, <b><i>max</i></b>, que especifica el
+          valor máximo, <b><i>min</i></b>, que especifica el valor mínimo, y
+          <b><i>optimum</i></b>, que especifica el valor óptimo.</p>
+        <p>Ejemplo:</p>
+        <pre>
         <code>
 &ltmeter value="2" min="0" max="10">2 out of 10&lt/meter>&ltbr>
 &ltmeter value="0.6">60%&lt/meter>
         </code>
       </pre>
-      <div class="ejemplo">
-        <meter value="2" min="0" max="10">2 out of 10</meter><br>
-        <meter value="0.6">60%</meter>
+        <div class="ejemplo">
+          <meter value="2" min="0" max="10">2 out of 10</meter><br>
+          <meter value="0.6">60%</meter>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="nav">&ltnav></h3>
-      <p>La etiqueta &ltnav> define un conjunto de enlaces de navegación.</p>
-      <p>Tómese en cuenta que <b>NO TODOS</b> los enlaces deben estar en &ltnav>.</p>
-      <p>Es soportada en todos los navegadores. También soporta los atributos
-        globales en HTML.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="nav">&ltnav></h3>
+        <p>La etiqueta &ltnav> define un conjunto de enlaces de navegación.</p>
+        <p>Tómese en cuenta que <b>NO TODOS</b> los enlaces deben estar en &ltnav>.</p>
+        <p>Es soportada en todos los navegadores. También soporta los atributos
+          globales en HTML.</p>
+        <p>Ejemplo:</p>
+        <pre>
         <code>
 &ltnav>
   &lta href="/html/">HTML&lt/a> |
@@ -635,27 +635,27 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/nav>
         </code>
       </pre>
-      <div class="ejemplo">
-        <nav>
-          <a href="/html/">HTML</a> |
-          <a href="/css/">CSS</a> |
-          <a href="/js/">JavaScript</a> |
-          <a href="/jquery/">jQuery</a>
-        </nav>
+        <div class="ejemplo">
+          <nav>
+            <a href="/html/">HTML</a> |
+            <a href="/css/">CSS</a> |
+            <a href="/js/">JavaScript</a> |
+            <a href="/jquery/">jQuery</a>
+          </nav>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="output">&ltoutput></h3>
-      <p>La etiqueta &ltoutput> representa el resultado de un cálculo.</p>
-      <p>Es soportado por todos los navegadores.</p>
-      <p>Sus atributos más importantes son <b><i>for</i></b>, que especifica la
-        relación entre el resultado y los elementos usados, <b><i>form</i></b>,
-        que especifica uno o más formularios al que pertenece, <b><i>name</i></b>,
-        que especifica el nombre del elemento.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="output">&ltoutput></h3>
+        <p>La etiqueta &ltoutput> representa el resultado de un cálculo.</p>
+        <p>Es soportado por todos los navegadores.</p>
+        <p>Sus atributos más importantes son <b><i>for</i></b>, que especifica la
+          relación entre el resultado y los elementos usados, <b><i>form</i></b>,
+          que especifica uno o más formularios al que pertenece, <b><i>name</i></b>,
+          que especifica el nombre del elemento.</p>
+        <p>Ejemplo:</p>
+        <pre>
         <code>
 &ltform oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
   &ltinput type="range" id="a" value="50">100
@@ -664,37 +664,37 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/form>
         </code>
       </pre>
-      <div class="ejemplo">
-        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
-          <input type="range" id="a" value="50">100
-          +<input type="number" id="b" value="50">
-          =<output name="x" for="a b"></output>
-        </form>
+        <div class="ejemplo">
+          <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+            <input type="range" id="a" value="50">100
+            +<input type="number" id="b" value="50">
+            =<output name="x" for="a b"></output>
+          </form>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="picture">&ltpicture></h3>
-      <p>La etiqueta &ltpicture&gt brinda a los desarrolladores web más flexibilidad
-        para especificar recursos de imagen. El uso más común del elemento &ltpicture&gt
-        será para la dirección de arte en diseños sensibles. En lugar de tener una imagen
-        escalada hacia arriba o hacia abajo según el ancho de la ventana gráfica, se pueden
-        diseñar varias imágenes para que ocupen más espacio en la ventana gráfica del
-        navegador. El elemento &ltpicture&gt contiene dos etiquetas diferentes: una o
-        más etiquetas &ltsource&gt y una etiqueta &ltimg&gt. El navegador utilizará
-        los valores de los atributos para cargar la imagen más adecuada. El navegador
-        utilizará el primer elemento &ltsource&gt con una sugerencia coincidente e
-        ignorará las siguientes etiquetas de &ltsource&gt. El elemento &ltimg&gt se
-        requiere como la última etiqueta secundaria del bloque de declaración &ltpicture&gt.
-        El elemento &ltimg&gt se utiliza para proporcionar compatibilidad con versiones
-        anteriores para los navegadores que no admiten el elemento &ltpicture&gt, o si
-        ninguna de las etiquetas &ltsource&gt coincide. El elemento &ltpicture&gt
-        funciona de manera similar a los elementos &ltvideo&gt y &ltaudio&gt. Usted
-        configura diferentes fuentes, y la primera fuente que se ajusta a las preferencias
-        es la que se está utilizando.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="picture">&ltpicture></h3>
+        <p>La etiqueta &ltpicture&gt brinda a los desarrolladores web más flexibilidad
+          para especificar recursos de imagen. El uso más común del elemento &ltpicture&gt
+          será para la dirección de arte en diseños sensibles. En lugar de tener una imagen
+          escalada hacia arriba o hacia abajo según el ancho de la ventana gráfica, se pueden
+          diseñar varias imágenes para que ocupen más espacio en la ventana gráfica del
+          navegador. El elemento &ltpicture&gt contiene dos etiquetas diferentes: una o
+          más etiquetas &ltsource&gt y una etiqueta &ltimg&gt. El navegador utilizará
+          los valores de los atributos para cargar la imagen más adecuada. El navegador
+          utilizará el primer elemento &ltsource&gt con una sugerencia coincidente e
+          ignorará las siguientes etiquetas de &ltsource&gt. El elemento &ltimg&gt se
+          requiere como la última etiqueta secundaria del bloque de declaración &ltpicture&gt.
+          El elemento &ltimg&gt se utiliza para proporcionar compatibilidad con versiones
+          anteriores para los navegadores que no admiten el elemento &ltpicture&gt, o si
+          ninguna de las etiquetas &ltsource&gt coincide. El elemento &ltpicture&gt
+          funciona de manera similar a los elementos &ltvideo&gt y &ltaudio&gt. Usted
+          configura diferentes fuentes, y la primera fuente que se ajusta a las preferencias
+          es la que se está utilizando.</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltpicture>
   &ltsource media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
@@ -703,121 +703,121 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/picture>
   </code>
 </pre>
-      <div class="ejemplo">
-        <picture>
-          <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
-          <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
-          <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
-        </picture>
+        <div class="ejemplo">
+          <picture>
+            <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+            <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+            <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+          </picture>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="progress">&ltprogress&gt</h3>
-      <p>La etiqueta &ltprogress&gt representa el progreso de una tarea. Funciona en
-        Chrome 8.0, Internet Explorer 10.0, Mozilla 16.0, Safari6.0, y Opera 11.0 en
-        adelante</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="progress">&ltprogress&gt</h3>
+        <p>La etiqueta &ltprogress&gt representa el progreso de una tarea. Funciona en
+          Chrome 8.0, Internet Explorer 10.0, Mozilla 16.0, Safari6.0, y Opera 11.0 en
+          adelante</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltprogress value="22" max="100">&lt/progress>
   </code>
 </pre>
-      <div class="ejemplo">
-        <progress value="22" max="100"></progress>
+        <div class="ejemplo">
+          <progress value="22" max="100"></progress>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="rp">&ltrp&gt</h3>
-      <p>La etiqueta &ltrp&gt se puede usar para proporcionar paréntesis alrededor de
-        un texto ruby, que se mostrará en los navegadores que no admiten las anotaciones
-        ruby. Use la etiqueta &ltrp&gt junto con las etiquetas &ltruby&gt y &ltrt&gt :
-        el elemento &ltruby&gt consta de uno o más caracteres que necesitan una explicación
-        / pronunciación, y un elemento &ltrt&gt que proporciona esa información, y Elemento
-        &ltrp&gt opcional que define qué mostrar para los navegadores que no admiten las
-        anotaciones de Ruby.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="rp">&ltrp&gt</h3>
+        <p>La etiqueta &ltrp&gt se puede usar para proporcionar paréntesis alrededor de
+          un texto ruby, que se mostrará en los navegadores que no admiten las anotaciones
+          ruby. Use la etiqueta &ltrp&gt junto con las etiquetas &ltruby&gt y &ltrt&gt :
+          el elemento &ltruby&gt consta de uno o más caracteres que necesitan una explicación
+          / pronunciación, y un elemento &ltrt&gt que proporciona esa información, y Elemento
+          &ltrp&gt opcional que define qué mostrar para los navegadores que no admiten las
+          anotaciones de Ruby.</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltruby>
 漢 &ltrt>&ltrp>(&lt/rp>ㄏㄢˋ&ltrp>)&lt/rp>&lt/rt>
 &lt/ruby>
   </code>
 </pre>
-      <div class="ejemplo">
-        <ruby>
-          漢 <rt>
-          <rp>(</rp>ㄏㄢˋ<rp>)</rp>
-          </rt>
-        </ruby>
+        <div class="ejemplo">
+          <ruby>
+            漢 <rt>
+            <rp>(</rp>ㄏㄢˋ<rp>)</rp>
+            </rt>
+          </ruby>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="rt">&lt&rtgt</h3>
-      <p>La etiqueta &ltrt&gt define una explicación o pronunciación de los caracteres
-        (para tipografía de Asia oriental) en una anotación de rubí. Use la etiqueta
-        &ltrt&gt junto con las etiquetas &ltruby&gt y &ltrp&gt : el elemento &ltruby&gt
-        consta de uno o más caracteres que necesitan una explicación / pronunciación,
-        y un elemento &ltrt&gt que proporciona esa información, y Elemento &ltrp&gt
-        opcional que define qué mostrar para los navegadores que no admiten las anotaciones
-        de Ruby. Esta desde Chrome 5.0, Internet Explorer 5.5, Firefox 38.0, Safari 5.0
-        y Opera 15.0 en adelante</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="rt">&lt&rtgt</h3>
+        <p>La etiqueta &ltrt&gt define una explicación o pronunciación de los caracteres
+          (para tipografía de Asia oriental) en una anotación de rubí. Use la etiqueta
+          &ltrt&gt junto con las etiquetas &ltruby&gt y &ltrp&gt : el elemento &ltruby&gt
+          consta de uno o más caracteres que necesitan una explicación / pronunciación,
+          y un elemento &ltrt&gt que proporciona esa información, y Elemento &ltrp&gt
+          opcional que define qué mostrar para los navegadores que no admiten las anotaciones
+          de Ruby. Esta desde Chrome 5.0, Internet Explorer 5.5, Firefox 38.0, Safari 5.0
+          y Opera 15.0 en adelante</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltruby>
 漢 &ltrt> ㄏㄢˋ &lt/rt>
 &lt/ruby>
   </code>
 </pre>
-      <div class="ejemplo">
-        <ruby>
-          漢 <rt> ㄏㄢˋ </rt>
-        </ruby>
+        <div class="ejemplo">
+          <ruby>
+            漢 <rt> ㄏㄢˋ </rt>
+          </ruby>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="ruby">&ltruby&gt</h3>
-      <p>La etiqueta &ltruby&gt especifica una anotación ruby. Una anotación de rubí
-        es un pequeño texto adicional, que se adjunta al texto principal para indicar
-        la pronunciación o el significado de los caracteres correspondientes. Este tipo
-        de anotación se utiliza a menudo en publicaciones japonesas. Use la etiqueta
-        &ltruby&gt junto con las etiquetas &ltrt&gt y / o &ltrp&gt : el elemento &ltruby&gt
-        consta de uno o más caracteres que necesitan una explicación / pronunciación,
-        y un elemento &ltrt&gt que proporciona esa información, y un elemento opcional
-        &ltrp&gt que define qué mostrar para los navegadores que no admiten anotaciones
-        ruby. Esta desde Chrome 5.0, Internet Explorer 5.5, Firefox 38.0, Safari 5.0 y
-        Opera 15.0 en adelante</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="ruby">&ltruby&gt</h3>
+        <p>La etiqueta &ltruby&gt especifica una anotación ruby. Una anotación de rubí
+          es un pequeño texto adicional, que se adjunta al texto principal para indicar
+          la pronunciación o el significado de los caracteres correspondientes. Este tipo
+          de anotación se utiliza a menudo en publicaciones japonesas. Use la etiqueta
+          &ltruby&gt junto con las etiquetas &ltrt&gt y / o &ltrp&gt : el elemento &ltruby&gt
+          consta de uno o más caracteres que necesitan una explicación / pronunciación,
+          y un elemento &ltrt&gt que proporciona esa información, y un elemento opcional
+          &ltrp&gt que define qué mostrar para los navegadores que no admiten anotaciones
+          ruby. Esta desde Chrome 5.0, Internet Explorer 5.5, Firefox 38.0, Safari 5.0 y
+          Opera 15.0 en adelante</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltruby>
 漢 &ltrt> ㄏㄢˋ &lt/rt>
 &lt/ruby>
   </code>
 </pre>
-      <div class="ejemplo">
-        <ruby>
-          漢 <rt> ㄏㄢˋ </rt>
-        </ruby>
+        <div class="ejemplo">
+          <ruby>
+            漢 <rt> ㄏㄢˋ </rt>
+          </ruby>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="section">&ltsection&gt</h3>
-      <p>La etiqueta &ltsection&gt define las secciones de un documento, como capítulos,
-        encabezados, pies de página o cualquier otra sección del documento. Esta desde
-        Chrome 6.0, Internet Explorer 9.0, Firefox 4.0, Safari 5.0 y Opera 11.1 en adelante</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="section">&ltsection&gt</h3>
+        <p>La etiqueta &ltsection&gt define las secciones de un documento, como capítulos,
+          encabezados, pies de página o cualquier otra sección del documento. Esta desde
+          Chrome 6.0, Internet Explorer 9.0, Firefox 4.0, Safari 5.0 y Opera 11.1 en adelante</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltsection>
   &lth1>WWF&lt/h1>
@@ -825,25 +825,25 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/section>
   </code>
 </pre>
-      <div class="ejemplo">
-        <section>
-          <h1>WWF</h1>
-          <p>The World Wide Fund for Nature (WWF) is....</p>
-        </section>
+        <div class="ejemplo">
+          <section>
+            <h1>WWF</h1>
+            <p>The World Wide Fund for Nature (WWF) is....</p>
+          </section>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="source">&ltsource&gt</h3>
-      <p>La etiqueta &ltsource&gt se usa para especificar múltiples recursos de medios
-        para elementos de medios, como &ltvideo&gt, &ltaudio&gt y &ltpicture&gt. La
-        etiqueta &ltsource&gt le permite especificar archivos de video / audio / imagen
-        alternativos entre los que el navegador puede elegir, según su tipo de medio,
-        soporte de códec o consulta de medios. Esta desde Chrome 4.0, Internet Explorer
-        9.0, Firefox 3.5, Safari 4.0 y Opera 10.5 en adelante</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="source">&ltsource&gt</h3>
+        <p>La etiqueta &ltsource&gt se usa para especificar múltiples recursos de medios
+          para elementos de medios, como &ltvideo&gt, &ltaudio&gt y &ltpicture&gt. La
+          etiqueta &ltsource&gt le permite especificar archivos de video / audio / imagen
+          alternativos entre los que el navegador puede elegir, según su tipo de medio,
+          soporte de códec o consulta de medios. Esta desde Chrome 4.0, Internet Explorer
+          9.0, Firefox 3.5, Safari 4.0 y Opera 10.5 en adelante</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltaudio controls>
   &ltsource src="horse.ogg" type="audio/ogg">
@@ -852,24 +852,24 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/audio>
   </code>
 </pre>
-      <div class="ejemplo">
-        <audio controls>
-          <source src="horse.ogg" type="audio/ogg">
-          <source src="horse.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
+        <div class="ejemplo">
+          <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="summary">&ltsummary&gt</h3>
-      <p>La etiqueta &ltsummary&gt define un encabezado visible para el elemento
-        &ltdetails&gt . Se puede hacer clic en el encabezado para ver / ocultar los
-        detalles. Esta desde Chrome 12.0, Firefox 48.0, Safari 6.0 y Opera 15.0 en
-        adelante.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="summary">&ltsummary&gt</h3>
+        <p>La etiqueta &ltsummary&gt define un encabezado visible para el elemento
+          &ltdetails&gt . Se puede hacer clic en el encabezado para ver / ocultar los
+          detalles. Esta desde Chrome 12.0, Firefox 48.0, Safari 6.0 y Opera 15.0 en
+          adelante.</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltdetails>
   &ltsummary>Copyright 1999-2014.&lt/summary>
@@ -878,27 +878,27 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/details>
   </code>
 </pre>
-      <div class="ejemplo">
-        <details>
-          <summary>Copyright 1999-2014.</summary>
-          <p> - by Refsnes Data. All Rights Reserved.</p>
-          <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
-        </details>
+        <div class="ejemplo">
+          <details>
+            <summary>Copyright 1999-2014.</summary>
+            <p> - by Refsnes Data. All Rights Reserved.</p>
+            <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+          </details>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="template">&lttemplate&gt</h3>
-      <p>La etiqueta &lttemplate&gt mantiene su contenido oculto al cliente. El contenido
-        dentro de una etiqueta &lttemplate&gt no se procesará. El contenido puede ser
-        visible y renderizado más tarde usando JavaScript. Use la etiqueta &lttemplate&gt
-        cuando tenga el código HTML que quiera usar una y otra vez, pero no hasta que lo
-        solicite. Para hacer esto sin la etiqueta &lttemplate&gt, debe crear el código
-        HTML con JavaScript para evitar que el navegador rinda el código.Esta desde Chrome
-        26.0, Internet Explorer 13.0, Firefox 22.0, Safari 9.0 y Opera 15.0 en adelante.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="template">&lttemplate&gt</h3>
+        <p>La etiqueta &lttemplate&gt mantiene su contenido oculto al cliente. El contenido
+          dentro de una etiqueta &lttemplate&gt no se procesará. El contenido puede ser
+          visible y renderizado más tarde usando JavaScript. Use la etiqueta &lttemplate&gt
+          cuando tenga el código HTML que quiera usar una y otra vez, pero no hasta que lo
+          solicite. Para hacer esto sin la etiqueta &lttemplate&gt, debe crear el código
+          HTML con JavaScript para evitar que el navegador rinda el código.Esta desde Chrome
+          26.0, Internet Explorer 13.0, Firefox 22.0, Safari 9.0 y Opera 15.0 en adelante.</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &lttemplate>
   &lth2>Flower&lt/h2>
@@ -906,48 +906,48 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/template>
   </code>
 </pre>
-      <div class="ejemplo">
-        <template>
-          <h2>Flower</h2>
-          <img src="img_white_flower.jpg">
-        </template>
+        <div class="ejemplo">
+          <template>
+            <h2>Flower</h2>
+            <img src="img_white_flower.jpg">
+          </template>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="time">&lttime&gt</h3>
-      <p>La etiqueta &lttime&gt define una fecha / hora legible por humanos.Este elemento
-        también se puede usar para codificar fechas y horas de manera legible por la
-        máquina, de modo que los agentes de usuarios puedan ofrecer agregar recordatorios
-        de cumpleaños o eventos programados al calendario del usuario, y los motores de
-        búsqueda pueden producir resultados de búsqueda más inteligentes.Esta desde
-        Chrome 6.0, Internet Explorer 9.0, Firefox 4.0, Safari 5.0 y Opera 11.1 en adelante.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="time">&lttime&gt</h3>
+        <p>La etiqueta &lttime&gt define una fecha / hora legible por humanos.Este elemento
+          también se puede usar para codificar fechas y horas de manera legible por la
+          máquina, de modo que los agentes de usuarios puedan ofrecer agregar recordatorios
+          de cumpleaños o eventos programados al calendario del usuario, y los motores de
+          búsqueda pueden producir resultados de búsqueda más inteligentes.Esta desde
+          Chrome 6.0, Internet Explorer 9.0, Firefox 4.0, Safari 5.0 y Opera 11.1 en adelante.</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltp>We open at &lttime>10:00&lt/time> every morning.&lt/p>
 
 &ltp>I have a date on &lttime datetime="2008-02-14 20:00">Valentines day&lt/time>.&lt/p>
   </code>
 </pre>
-      <div class="ejemplo">
-        <p>We open at <time>10:00</time> every morning.</p>
+        <div class="ejemplo">
+          <p>We open at <time>10:00</time> every morning.</p>
 
-        <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+          <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="track">&lttrack&gt</h3>
-      <p>La etiqueta &lttrack&gt especifica pistas de texto para elementos multimedia
-        (&ltaudio&gt y &ltvideo&gt). Este elemento se utiliza para especificar subtítulos,
-        archivos de subtítulos u otros archivos que contienen texto, que deberían estar
-        visibles cuando se reproducen los medios.Esta desde Chrome 18.0, Internet Explorer
-        10.0, Firefox 31.0, Safari 6.0 y Opera 15.0 en adelante.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="track">&lttrack&gt</h3>
+        <p>La etiqueta &lttrack&gt especifica pistas de texto para elementos multimedia
+          (&ltaudio&gt y &ltvideo&gt). Este elemento se utiliza para especificar subtítulos,
+          archivos de subtítulos u otros archivos que contienen texto, que deberían estar
+          visibles cuando se reproducen los medios.Esta desde Chrome 18.0, Internet Explorer
+          10.0, Firefox 31.0, Safari 6.0 y Opera 15.0 en adelante.</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltvideo width="320" height="240" controls>
   &ltsource src="forrest_gump.mp4" type="video/mp4">
@@ -957,26 +957,26 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/video>
   </code>
 </pre>
-      <div class="ejemplo">
-        <video width="320" height="240" controls>
-          <source src="forrest_gump.mp4" type="video/mp4">
-          <source src="forrest_gump.ogg" type="video/ogg">
-          <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
-          <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
-        </video>
+        <div class="ejemplo">
+          <video width="320" height="240" controls>
+            <source src="forrest_gump.mp4" type="video/mp4">
+            <source src="forrest_gump.ogg" type="video/ogg">
+            <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+            <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+          </video>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="video">&ltvideo&gt</h3>
-      <p>La etiqueta &ltvideo&gt especifica el video, como un clip de película u otras
-        secuencias de video. Actualmente, hay 3 formatos de video compatibles para el
-        elemento &ltvideo&gt: MP4, WebM y Ogg, sólo Internet Explorer y SAfari no soportan
-        los formatos WebM y Ogg.Esta desde Chrome 4.0, Internet Explorer 9.0, Firefox 3.5,
-        Safari 4.0 y Opera 10.5 en adelante.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="video">&ltvideo&gt</h3>
+        <p>La etiqueta &ltvideo&gt especifica el video, como un clip de película u otras
+          secuencias de video. Actualmente, hay 3 formatos de video compatibles para el
+          elemento &ltvideo&gt: MP4, WebM y Ogg, sólo Internet Explorer y SAfari no soportan
+          los formatos WebM y Ogg.Esta desde Chrome 4.0, Internet Explorer 9.0, Firefox 3.5,
+          Safari 4.0 y Opera 10.5 en adelante.</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltvideo width="320" height="240" controls>
   &ltsource src="movie.mp4" type="video/mp4">
@@ -985,47 +985,48 @@ ctx.fillRect(0, 0, 80, 80);
 &lt/video>
   </code>
 </pre>
-      <div class="ejemplo">
-        <video width="320" height="240" controls>
-          <source src="movie.mp4" type="video/mp4">
-          <source src="movie.ogg" type="video/ogg">
-          Your browser does not support the video tag.
-        </video>
+        <div class="ejemplo">
+          <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
-    </div>
 
-    <div class="resumen">
-      <h3 id="wbr">&ltwbr&gt</h3>
-      <p>La etiqueta &ltwbr&gt (Word Break Opportunity) especifica dónde en un texto
-        sería correcto agregar un salto de línea. Sugerencia: cuando una palabra es
-        demasiado larga, o tiene miedo de que el navegador rompa sus líneas en el lugar
-        equivocado, puede usar el elemento &ltwbr&gt para agregar oportunidades de
-        separación de palabras.Esta desde Chrome 1.0, Internet Explorer 12.0, Firefox
-        3.0, Safari 4.0 y Opera 11.7 en adelante.</p>
-      <p>Ejemplo:</p>
-      <pre>
+      <div class="resumen">
+        <h3 id="wbr">&ltwbr&gt</h3>
+        <p>La etiqueta &ltwbr&gt (Word Break Opportunity) especifica dónde en un texto
+          sería correcto agregar un salto de línea. Sugerencia: cuando una palabra es
+          demasiado larga, o tiene miedo de que el navegador rompa sus líneas en el lugar
+          equivocado, puede usar el elemento &ltwbr&gt para agregar oportunidades de
+          separación de palabras.Esta desde Chrome 1.0, Internet Explorer 12.0, Firefox
+          3.0, Safari 4.0 y Opera 11.7 en adelante.</p>
+        <p>Ejemplo:</p>
+        <pre>
   <code>
 &ltp>
 To learn AJAX, you must be familiar with the XML&ltwbr>Http&ltwbr>Request Object.
 &lt/p>
   </code>
 </pre>
-      <div class="ejemplo">
-        <p>
-          To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.
-        </p>
+        <div class="ejemplo">
+          <p>
+            To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.
+          </p>
+        </div>
+        <a href="#inicio">Ir al principio</a>
       </div>
-      <a href="#incio">Ir al principio</a>
     </div>
 
   </main>
 
-  <footer>
+  <footer class="footer">
     <p>Instituto tecnológico de Parral</p>
     <p>Tópicos de Programación Web</p>
     <p>5 de Febrero del 2019</p>
-    <footer>
+  </footer>
 
 </body>
 
